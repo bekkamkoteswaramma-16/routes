@@ -6,7 +6,7 @@ const houseSchema = new mongoose.Schema({
   rent: { type: Number, required: true },
   location: { type: String, required: true }, // "Amaravati, AP"
   image: String, // image URL
-  owner: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  owner: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },  
   ownerName: String,
   ownerPhone: String
 }, { timestamps: true });

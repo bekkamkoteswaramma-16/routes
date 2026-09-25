@@ -10,5 +10,5 @@ const houseSchema = new mongoose.Schema({
   ownerName: String,
   ownerPhone: String
 }, { timestamps: true });
-
+ 
 module.exports = mongoose.model('House', houseSchema);

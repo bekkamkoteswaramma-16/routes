@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const houseSchema = new mongoose.Schema({
   title: { type: String, required: true }, 
-  description: String,
+  description: String, 
   rent: { type: Number, required: true }, 
   location: { type: String, required: true }, // "Amaravati, AP"
   image: String, // image URL
